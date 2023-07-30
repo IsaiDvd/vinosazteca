@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #721422; /* Color del "estilo base uno" */
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo a img {
+    height: 42px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+}
+
+.navbar {
+    display: flex; 
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: inline-block; 
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px; /* Tamaño de fuente ajustado al "estilo base uno" */
+    padding: 30px 10px; /* Ajustar el espacio entre los enlaces del navbar */
+}
+
+.navbar a:hover {
+    background: #500c0c; /* Color de hover ajustado al "estilo base uno" */
+    border-radius: 8px; 
+    padding: 30px 10px; /* Mantener el mismo tamaño de padding en el hover */
+    font-size: 18px; /* Ajustar el tamaño de fuente en el hover */
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/header-08-02.png) no-repeat center;
+    background-size: cover;
+}
+
+.header h2.title {
+    font-size: 90px; /* Cambiar el tamaño del texto a 80px */
+    text-transform: none; /* Eliminar el efecto de mayúsculas */
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ffffff;
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container .box {
+    flex: 1;
+    max-width: 40%;
+    background: #1f1f1f;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;
+}
+
+/* Eliminamos las propiedades de ancho y alto específicas para las imágenes */
+.box-container .box img {
+    max-width: 100%; /* Establecemos un ancho máximo del 100% */
+    height: auto; /* Permitimos que la altura se ajuste automáticamente para mantener la relación de aspecto */
+    alt: "icon";
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo adicional para resaltar el contenedor de la clase "box" en el hover */
+.box-container .box:hover {
+    background: #500c0c;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/header-07-02-02.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+    height: 17%;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
+
+.header h2.title {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+}
+
+/* Nuevos estilos para el texto "Se parte de nuestra comunidad" */
+.sau h2.title {
+    font-size: 60px; /* Cambiar el tamaño del texto a 60px */
+    font-weight: bold; /* Agregar negrita a la fuente */
+    text-transform: none; /* Eliminar el efecto de letras mayúsculas */
+    color: #fff; /* Cambiar el color del texto a blanco */
+    font-family: 'Montserrat', sans-serif; /* Agregar la tipografía Montserrat */
+    margin-bottom: 20px; /* Ajustar el margen inferior para separarlo del contenido */
+}
+
+
+.sau h2.title {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.price h2.title {
+    font-size: 80px; /* Cambiar el tamaño del texto a 60px */
+    font-weight: normal; /* Eliminar la negrita de la fuente */
+    text-transform: none; /* Eliminar el efecto de letras mayúsculas */
+    color: #fff; /* Cambiar el color del texto a blanco */
+    font-family: 'Great Vibes', cursive; /* Cambiar la tipografía a Great Vibes */
+    margin-bottom: 20px; /* Ajustar el margen inferior para separarlo del contenido */
+}
+
+.content.contact figure.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.content.contact figure.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajustar la altura del contenedor de la imagen */
+}
+
+.content.contact figure.map img {
+    max-height: 120px; /* Ajustar la altura máxima de la imagen */
+    max-width: 100%;
+    margin-bottom: 10px; /* Ajustar el espacio entre la imagen y el texto */
+}
+/* Nuevos estilos para los elementos con clase "box" de Facebook e Instagram */
+.box-container .box:nth-child(1) h3,
+.box-container .box:nth-child(2) h3 {
+    font-size: 20px; /* Cambiar el tamaño del texto a 20px */
+    color: #800000; /* Cambiar el color del texto a #800000 */
+    font-family: 'Montserrat', sans-serif; /* Cambiar la tipografía a Montserrat */
+    font-weight: 500; /* Agregar un peso de fuente medio para Montserrat */
+}
+
+.box-container .box:nth-child(1) p,
+.box-container .box:nth-child(2) p {
+    font-size: 20px; /* Cambiar el tamaño del texto a 20px */
+    color: #800000; /* Cambiar el color del texto a #800000 */
+    font-family: 'Montserrat', sans-serif; /* Cambiar la tipografía a Montserrat */
+    font-weight: 500; /* Agregar un peso de fuente medio para Montserrat */
+}
+
+/* Estilos para mantener los textos "Viñedos Azteca" y "@vinedosazteca" en color blanco */
+.box-container .box:nth-child(1) h3,
+.box-container .box:nth-child(2) h3,
+.box-container .box:nth-child(1) p,
+.box-container .box:nth-child(2) p {
+    color: #fff; /* Cambiar el color del texto a blanco */
+}
+
+.sau p {
+    font-size: 18px;
+}
+
+.price p {
+    font-size: 18px;
+}

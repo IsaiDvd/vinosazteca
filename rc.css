@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #721422; /* Color del "estilo base uno" */
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo a img {
+    height: 42px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+    padding: 0; /* Ajustar el espacio interno del logo del navbar */
+}
+
+.navbar {
+    display: flex; 
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: inline-block; 
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px; /* Tamaño de fuente ajustado al "estilo base uno" */
+    padding: 30px 10px; /* Ajustar el espacio entre los enlaces del navbar */
+}
+
+.navbar a:hover {
+    background: #500c0c;
+    border-radius: 8px; 
+    padding: 1px 20px; 
+    font-size: 18px; 
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+.content.header h2.title {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+.content.header h2.title {
+    font-size: 80px; /* Cambiar el tamaño del texto a 60px */
+    font-weight: 500; /* Cambiar el peso de la fuente a 500 */
+    text-transform: none; /* Eliminar el efecto de letras mayúsculas */
+    color: #fff; /* Cambiar el color del texto a blanco */
+    margin-bottom: 20px; /* Ajustar el margen inferior para separarlo del contenido */
+}
+
+.content.about h2.title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* Nuevos estilos para el texto "SOBRE EL EVENTO" */
+.content.about h2.title {
+    font-size: 60px; /* Cambiar el tamaño del texto a 60px */
+    font-weight: 600; 
+    text-transform: none; /* Eliminar el efecto de letras mayúsculas */
+    color: #fff; /* Cambiar el color del texto a blanco */
+    font-family: 'Montserrat', sans-serif; /* Agregar la tipografía Montserrat */
+    margin-bottom: 20px; /* Ajustar el margen inferior para separarlo del contenido */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background-image: url('img/header-05-02.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+h2.title {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: none; 
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background: #500c0c;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 60px;
+    background: #171717;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 15rem;
+    background: #1f1f1f;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #171717;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #721422;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.about h2.title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+    border-radius: 10%;
+}
+
+.about a.btn:hover {
+    background: #500c0c;
+}
+
+.price {
+    background: url('img/header-06-02-02.png') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 60px;
+}
+
+.price article.contain h2.title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+
+.price article.contain p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.price article.contain a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+    border-radius: 10%;
+}
+
+.price article.contain a.btn:hover {
+    background: #500c0c;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+    height: 30%;
+}
+
+
+.content.contact figure.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.content.contact figure.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajustar la altura del contenedor de la imagen */
+}
+
+.content.contact figure.map img {
+    max-height: 120px; /* Ajustar la altura máxima de la imagen */
+    max-width: 100%;
+    margin-bottom: 10px; /* Ajustar el espacio entre la imagen y el texto */
+}
+
+.contact p {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+}
+
+.content.price article.contain h2.title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff; 
+}
+
+.content.price article.contain h2.title {
+    font-size: 60px; 
+    font-weight: 600; 
+    text-transform: none; 
+    color: #fff; 
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}

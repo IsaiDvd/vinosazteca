@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #721422; 
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo a img {
+    height: 42px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+    padding: 0; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px; 
+    padding: 30px 10px; /* Ajustar el espacio entre los enlaces del navbar */
+}
+
+.navbar a:hover {
+    background: #500c0c; 
+    border-radius: 8px;
+    padding: 30px 10px; 
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/header-03-02.png) no-repeat center;
+    background-size: cover;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content.header h2.title {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px; 
+    color: #fff; 
+}
+
+.content.header p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 20px; 
+    color: #fff; 
+}
+
+.content.header a.btn,
+.content.price article.contain a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+    border-radius: 10%;
+}
+
+.content.header a.btn:hover,
+.content.price article.contain a.btn:hover {
+    background: #500c0c;
+}
+
+
+.content.about a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+    border-radius: 10%;
+}
+
+.content.about a.btn:hover {
+    background: #500c0c;
+}
+
+.content.about h2.title {
+    font-family: 'Montserrat', sans-serif; /* Cambiar la tipografía a Montserrat */
+    font-weight: bold; /* Aplicar negrita */
+    font-size: 60px; /* Ajustar el tamaño de fuente a 60px */
+    text-align: center; /* Centrar el texto */
+    color: #fff; /* Cambiar el color del texto a blanco */
+    text-transform: none; /* Eliminar el efecto de mayúsculas */
+    margin-bottom: 20px; /* Ajustar el margen inferior */
+}
+
+
+#vinos {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#vinos h2,
+#vinos p,
+#vinos li h3,
+#vinos li p {
+    color: #fff; /* Cambiar el color del texto a blanco */
+}
+
+#vinos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#vinos li {
+    flex: 0 0 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#vinos li h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+#vinos li img {
+    width: 150px;
+    height: 320px;
+    margin: 10px auto;
+    display: block;
+}
+
+#vinos li p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+#vinos li button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #ffffff;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/header-04-02.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 60px;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+    height: 170%;
+}
+.content.price article.contain h2.title {
+    font-size: 60px; /* Cambiar el tamaño del texto a 60px */
+}
+
+.content.contact figure.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.content.contact figure.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajustar la altura del contenedor de la imagen */
+}
+
+.content.contact figure.map img {
+    max-height: 120px; /* Ajustar la altura máxima de la imagen */
+    max-width: 100%;
+    margin-bottom: 10px; /* Ajustar el espacio entre la imagen y el texto */
+}
+
+
+.content.contact p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.contact p,
+.content.about p,
+.content.price article.contain h2.title,
+.content.price article.contain p {
+    color: #fff; /* Cambiar el color del texto a blanco */
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 60px;
+        color:#fff
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+.img-hover {
+    transition: transform 0.5s ease;
+  }
+  
+  .img-hover:hover {
+    transform: scale(1.1);
+  }

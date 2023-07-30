@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #721422; 
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo a img {
+    height: 42px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+    padding: 0; /* Ajustar el espacio interno del logo del navbar */
+}
+
+.navbar {
+    display: flex; 
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: inline-block; 
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px; /* Tamaño de fuente ajustado al "estilo base uno" */
+    padding: 30px 10px; /* Ajustar el espacio entre los enlaces del navbar */
+}
+
+.navbar a:hover {
+    background: #500c0c; /* Color de hover ajustado al "estilo base uno" */
+    border-radius: 8px; 
+    padding: 30px 10px; /* Mantener el mismo tamaño de padding en el hover */
+    font-size: 18px; /* Ajustar el tamaño de fuente en el hover */
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+
+.content.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url('img/header-02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    color: #ffffff; 
+}
+
+.content.header h2.title {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+}
+
+.content.header p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.content.about {
+    background: #171717;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.content.about h2.title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.content.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.content.about a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+    border-radius: 10%;
+}
+
+.content.about a.btn:hover {
+    background: #500c0c;
+}
+
+.content.price {
+    background: url('img/header-03-eventos-02.png') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 60px;
+}
+
+.content.price article.contain p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff; 
+}
+
+.content.price article.contain h2.title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff; 
+}
+
+.content.price article.contain a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #721422;
+    border-radius: 10%;
+}
+
+.content.price article.contain a.btn:hover {
+    background: #500c0c;
+}
+
+.content.contact {
+    background: #171717;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content.contact figure.map img {
+    height: 120px;
+}
+
+.content.contact p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.content.contact p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Cambios para mostrar los botones empresarial y sociales en línea (horizontalmente) */
+.content.contact .btn-container {
+    display: flex; /* Cambia a "flex" para que los botones se muestren en línea */
+    justify-content: center; /* Alinear los botones en el centro */
+    margin-top: 15px; /* Ajustar el margen superior para separarlos del contenido */
+}
+
+.content.contact a.btn {
+    margin: 5px; /* Ajusta el margen entre los botones */
+}
+/* Fin de los cambios */
